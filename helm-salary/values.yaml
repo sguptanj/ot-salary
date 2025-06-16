@@ -1,11 +1,11 @@
 name: emp-salary-deployment
-namespace: demo-dev
+namespace: demo-prod
 
 # Service 
 
 service:
   name: emp-salary-service
-  namespace: demo-dev
+  namespace: demo-prod
   type: ClusterIP
   ports:
     protocol: TCP
